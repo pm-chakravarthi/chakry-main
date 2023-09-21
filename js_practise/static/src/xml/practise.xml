@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="template" xml:space="preserve">
+    <t t-name="RequisitionDashboard">
+        <link rel="stylesheet" type="text/css" href="/js_practise/static/src/scss/style.css"/>
+       <div class="oh_dashboards">
+            <div class="container-fluid my-5 o_hr_dashboard"/>
+           <h1>Hello</h1>
+           <p>This is<mark>important</mark> for us</p>
+           <details>
+               <summary>Learning the javascript</summary>
+               <p>First chapter</p>
+           </details>
+        </div>
+        <div>
+            <select>
+                <option>Html</option>
+                <option>Css</option>
+                <option>Python</option>
+                <option disabled="1">React</option>
+            </select>
+        </div>
+        <div>
+            <p contenteditable="true">You can edit,this text.</p>
+        </div>
+        <div>
+            <h1 class="title">Hey</h1>
+            <button class="changeColor">Click Me</button>
+
+            <ul class="name-list">
+                <li>Hem</li>
+                <li>Chakri</li>
+                <li>Pallu</li>
+                <li>Haneef</li>
+            </ul>
+
+            <input class="list-input" type="text" placeholder="Enter into list"/>
+            <button class="addListBtn">Click</button>
+        </div>
+    </t>
+</templates>

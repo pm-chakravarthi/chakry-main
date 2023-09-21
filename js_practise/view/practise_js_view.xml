@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_practise_js" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/js_practise/static/src/js/practise.js"></script>
+            <h1 class="title">Hey</h1>
+            <button class="changeColor">Click Me</button>
+        </xpath>
+    </template>
+</odoo>
